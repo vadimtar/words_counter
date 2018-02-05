@@ -17,5 +17,4 @@ describe CounterController do
       expect(response.body).to eq 'OK'
     end
   end
-
 end
