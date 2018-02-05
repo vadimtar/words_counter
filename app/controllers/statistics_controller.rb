@@ -12,8 +12,4 @@ class StatisticsController < ApplicationController
 
     render json: result
   end
-
-  def test
-    a = 1
-  end
 end
