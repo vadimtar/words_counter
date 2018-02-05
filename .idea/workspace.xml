@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e00b5a2-53b8-4a44-81c9-535429422f45" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/services/string_service.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/services/words_service.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spec/services/counter_service_spec.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spec/services/string_service_spec.rb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/spec/services/words_service_spec.rb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/counter_controller_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/statistics_controller_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/words.yml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/helpers/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/helpers/counter_helper_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/helpers/statistics_controller_helper_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/integration/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/models/.keep" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/models/word_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/services/staticstics_service_test.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/services/counter_service.rb" afterPath="$PROJECT_DIR$/app/services/counter_service.rb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,31 +18,25 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/words_counter@Words_Service_Spec_saves_words_to_the_database__words_counter.coverage" NAME="Words Service Spec saves words to the database: words_counter Coverage Results" MODIFIED="1517872315153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
+    <SUITE FILE_PATH="coverage/words_counter@CounterController_create_from_file_should_Return_OK__words_counter.coverage" NAME="CounterController create_from_file should Return OK: words_counter Coverage Results" MODIFIED="1517870638255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
+    <SUITE FILE_PATH="coverage/words_counter@StatisticsController_show_should_Return_JSON_with_0__words_counter.coverage" NAME="StatisticsController show should Return JSON with 0: words_counter Coverage Results" MODIFIED="1517869434330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
+    <SUITE FILE_PATH="coverage/words_counter@StatisticsController_show_should_Return_JSON_wihh_same_name_and_0__words_counter.coverage" NAME="StatisticsController show should Return JSON wihh same name and 0: words_counter Coverage Results" MODIFIED="1517869909145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
+    <SUITE FILE_PATH="coverage/words_counter@Counter_Service_Spec_saves_words_to_the_database__words_counter.coverage" NAME="Counter Service Spec saves words to the database: words_counter Coverage Results" MODIFIED="1517872037767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
     <SUITE FILE_PATH="coverage/words_counter@Development__words_counter.coverage" NAME="Development: words_counter Coverage Results" MODIFIED="1517243612816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
     <SUITE FILE_PATH="coverage/words_counter@should_return_integer___0_for_word_count__staticstics_service_test_rb___words_counter.coverage" NAME="should return integer &gt; 0 for word count (staticstics_service_test.rb): words_counter Coverage Results" MODIFIED="1517147430162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
-    <SUITE FILE_PATH="coverage/words_counter@CounterController_create_from_file_should_Return_OK__words_counter.coverage" NAME="CounterController create_from_file should Return OK: words_counter Coverage Results" MODIFIED="1517870638255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
     <SUITE FILE_PATH="coverage/words_counter@CounterController_should_Return_OK__words_counter.coverage" NAME="CounterController should Return OK: words_counter Coverage Results" MODIFIED="1517845395316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
     <SUITE FILE_PATH="coverage/words_counter@CounterController__words_counter.coverage" NAME="CounterController: words_counter Coverage Results" MODIFIED="1517845535107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
     <SUITE FILE_PATH="coverage/words_counter@should_Return_OK__counter_controller_spec_rb___words_counter.coverage" NAME="should Return OK (counter_controller_spec.rb): words_counter Coverage Results" MODIFIED="1517843834884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
     <SUITE FILE_PATH="coverage/words_counter@CounterController_Create_should_Return_OK__words_counter.coverage" NAME="CounterController Create should Return OK: words_counter Coverage Results" MODIFIED="1517845500410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
     <SUITE FILE_PATH="coverage/words_counter@Run_test__WordTest___words_counter.coverage" NAME="Run test 'WordTest': words_counter Coverage Results" MODIFIED="1517141180480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
-    <SUITE FILE_PATH="coverage/words_counter@StatisticsController_show_should_Return_JSON_with_0__words_counter.coverage" NAME="StatisticsController show should Return JSON with 0: words_counter Coverage Results" MODIFIED="1517869434330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
+    <SUITE FILE_PATH="coverage/words_counter@String_Service_Spec_splits_string_and_removes_all_non_alphabetical_chars__words_counter.coverage" NAME="String Service Spec splits string and removes all non alphabetical chars: words_counter Coverage Results" MODIFIED="1517872808478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
     <SUITE FILE_PATH="coverage/words_counter@StatisticsController_show_should_Return_JSON_empty_name_and_0__words_counter.coverage" NAME="StatisticsController show should Return JSON empty name and 0: words_counter Coverage Results" MODIFIED="1517869833786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
     <SUITE FILE_PATH="coverage/words_counter@CounterController_show_should_Return_JSON_with_0__words_counter.coverage" NAME="CounterController show should Return JSON with 0: words_counter Coverage Results" MODIFIED="1517868727623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
-    <SUITE FILE_PATH="coverage/words_counter@StatisticsController_show_should_Return_JSON_wihh_same_name_and_0__words_counter.coverage" NAME="StatisticsController show should Return JSON wihh same name and 0: words_counter Coverage Results" MODIFIED="1517869909145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
+    <SUITE FILE_PATH="coverage/words_counter@Words_Service_Spec_counts_words_correctly_and_returns_hash_with_results__words_counter.coverage" NAME="Words Service Spec counts words correctly and returns hash with results: words_counter Coverage Results" MODIFIED="1517872545593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="words_counter" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="counter_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/counter_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,27 +57,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="word.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/word.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="statistics_service.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/services/statistics_service.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state relative-caret-position="30">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -102,41 +77,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="counter_controller_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/controllers/counter_controller_spec.rb">
+      <file leaf-file-name="counter_service_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/services/counter_service_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="180">
+              <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name="words_service_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/services/words_service_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statistics_controller_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/controllers/statistics_controller_spec.rb">
+      <file leaf-file-name="string_service_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/services/string_service_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="120">
+              <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="support.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.3.1/gems/rspec-support-3.7.1/lib/rspec/support.rb">
+      <file leaf-file-name="counter_service.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/counter_service.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="142" column="46" lean-forward="false" selection-start-line="142" selection-start-column="46" selection-end-line="142" selection-end-column="46" />
+            <state relative-caret-position="150">
+              <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="words_service.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/words_service.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="string_service.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/services/string_service.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -187,7 +182,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20180128114028_create_words.rb" />
         <option value="$PROJECT_DIR$/app/models/word.rb" />
         <option value="$PROJECT_DIR$/test/services/staticstics_service_test.rb" />
-        <option value="$PROJECT_DIR$/app/services/counter_service.rb" />
         <option value="$PROJECT_DIR$/app/controllers/static_pages_controller.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/config.ru" />
@@ -205,6 +199,12 @@
         <option value="$PROJECT_DIR$/spec/controllers/statistics_controller_spec.rb" />
         <option value="$PROJECT_DIR$/app/controllers/statistics_controller.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/app/services/string_service.rb" />
+        <option value="$PROJECT_DIR$/app/services/words_service.rb" />
+        <option value="$PROJECT_DIR$/app/services/counter_service.rb" />
+        <option value="$PROJECT_DIR$/spec/services/counter_service_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/services/words_service_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/services/string_service_spec.rb" />
       </list>
     </option>
   </component>
@@ -271,6 +271,12 @@
               <item name="words_counter" type="b2602c69:ProjectViewProjectNode" />
               <item name="words_counter" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="words_counter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="words_counter" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -283,6 +289,12 @@
               <item name="words_counter" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="words_counter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="words_counter" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -300,6 +312,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/services" />
+      <recent name="$PROJECT_DIR$/app/services" />
       <recent name="$PROJECT_DIR$/spec/controllers" />
       <recent name="$PROJECT_DIR$/app/controllers" />
       <recent name="$PROJECT_DIR$/test/services" />
@@ -317,7 +331,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.CounterController create_from_file should Return OK: words_counter">
+  <component name="RunManager" selected="RSpec.String Service Spec splits string and removes all non alphabetical chars: words_counter">
+    <configuration name="Counter Service Spec saves words to the database: words_counter" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="words_counter" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="test" />
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/services/counter_service_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Counter Service Spec saves words to the database" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
     <configuration name="CounterController create_from_file should Return OK: words_counter" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="words_counter" />
@@ -351,7 +398,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="CounterController show should Return JSON with 0: words_counter" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="String Service Spec splits string and removes all non alphabetical chars: words_counter" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="words_counter" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -371,10 +418,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/statistics_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/services/string_service_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="CounterController show should Return JSON with 0" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="String Service Spec splits string and removes all non alphabetical chars" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -384,7 +431,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="StatisticsController show should Return JSON empty name and 0: words_counter" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Words Service Spec counts words correctly and returns hash with results: words_counter" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="words_counter" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -404,10 +451,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/statistics_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/services/words_service_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="StatisticsController show should Return JSON empty name and 0" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Words Service Spec counts words correctly and returns hash with results" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -417,7 +464,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="StatisticsController show should Return JSON wihh same name and 0: words_counter" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Words Service Spec saves words to the database: words_counter" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="words_counter" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -437,43 +484,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/statistics_controller_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/services/words_service_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="StatisticsController show should Return JSON wihh same name and 0" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-    </configuration>
-    <configuration name="StatisticsController show should Return JSON with 0: words_counter" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="words_counter" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="RAILS_ENV" value="test" />
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/controllers/statistics_controller_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="StatisticsController show should Return JSON with 0" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Words Service Spec saves words to the database" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -582,19 +596,19 @@
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: words_counter" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: words_counter" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: words_counter" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.CounterController show should Return JSON with 0: words_counter" />
-      <item index="5" class="java.lang.String" itemvalue="RSpec.StatisticsController show should Return JSON with 0: words_counter" />
-      <item index="6" class="java.lang.String" itemvalue="RSpec.CounterController create_from_file should Return OK: words_counter" />
-      <item index="7" class="java.lang.String" itemvalue="RSpec.StatisticsController show should Return JSON empty name and 0: words_counter" />
-      <item index="8" class="java.lang.String" itemvalue="RSpec.StatisticsController show should Return JSON wihh same name and 0: words_counter" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.CounterController create_from_file should Return OK: words_counter" />
+      <item index="5" class="java.lang.String" itemvalue="RSpec.Counter Service Spec saves words to the database: words_counter" />
+      <item index="6" class="java.lang.String" itemvalue="RSpec.Words Service Spec saves words to the database: words_counter" />
+      <item index="7" class="java.lang.String" itemvalue="RSpec.Words Service Spec counts words correctly and returns hash with results: words_counter" />
+      <item index="8" class="java.lang.String" itemvalue="RSpec.String Service Spec splits string and removes all non alphabetical chars: words_counter" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.CounterController create_from_file should Return OK: words_counter" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.StatisticsController show should Return JSON wihh same name and 0: words_counter" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.StatisticsController show should Return JSON empty name and 0: words_counter" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.StatisticsController show should Return JSON with 0: words_counter" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.CounterController show should Return JSON with 0: words_counter" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.String Service Spec splits string and removes all non alphabetical chars: words_counter" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Words Service Spec counts words correctly and returns hash with results: words_counter" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Words Service Spec saves words to the database: words_counter" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Counter Service Spec saves words to the database: words_counter" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.CounterController create_from_file should Return OK: words_counter" />
       </list>
     </recent_temporary>
   </component>
@@ -618,44 +632,44 @@
       <workItem from="1517135390153" duration="1342000" />
       <workItem from="1517137619961" duration="1329000" />
       <workItem from="1517139494783" duration="1335000" />
-      <workItem from="1517141310713" duration="48941000" />
+      <workItem from="1517141310713" duration="51129000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CounterController_create_from_file_should_Return_OK__words_counter - 2018.02.06 at 00h 44m 01s.xml">
-      <configuration name="CounterController create_from_file should Return OK: words_counter" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Counter_Service_Spec_saves_words_to_the_database__words_counter - 2018.02.06 at 00h 53m 55s.xml">
+      <configuration name="Counter Service Spec saves words to the database: words_counter" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="StatisticsController_show_should_Return_JSON_empty_name_and_0__words_counter - 2018.02.06 at 00h 24m 35s.xml">
-      <configuration name="StatisticsController show should Return JSON empty name and 0: words_counter" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Counter_Service_Spec_saves_words_to_the_database__words_counter - 2018.02.06 at 00h 54m 30s.xml">
+      <configuration name="Counter Service Spec saves words to the database: words_counter" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="StatisticsController_show_should_Return_JSON_empty_name_and_0__words_counter - 2018.02.06 at 00h 24m 57s.xml">
-      <configuration name="StatisticsController show should Return JSON empty name and 0: words_counter" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Counter_Service_Spec_saves_words_to_the_database__words_counter - 2018.02.06 at 00h 57m 12s.xml">
+      <configuration name="Counter Service Spec saves words to the database: words_counter" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="StatisticsController_show_should_Return_JSON_empty_name_and_0__words_counter - 2018.02.06 at 00h 25m 10s.xml">
-      <configuration name="StatisticsController show should Return JSON empty name and 0: words_counter" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Counter_Service_Spec_saves_words_to_the_database__words_counter - 2018.02.06 at 00h 58m 49s.xml">
+      <configuration name="Counter Service Spec saves words to the database: words_counter" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="StatisticsController_show_should_Return_JSON_empty_name_and_0__words_counter - 2018.02.06 at 00h 27m 14s.xml">
-      <configuration name="StatisticsController show should Return JSON empty name and 0: words_counter" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Counter_Service_Spec_saves_words_to_the_database__words_counter - 2018.02.06 at 01h 07m 21s.xml">
+      <configuration name="Counter Service Spec saves words to the database: words_counter" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="StatisticsController_show_should_Return_JSON_empty_name_and_0__words_counter - 2018.02.06 at 00h 27m 31s.xml">
-      <configuration name="StatisticsController show should Return JSON empty name and 0: words_counter" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="String_Service_Spec_splits_string_and_removes_all_non_alphabetical_chars__words_counter - 2018.02.06 at 01h 19m 45s.xml">
+      <configuration name="String Service Spec splits string and removes all non alphabetical chars: words_counter" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="StatisticsController_show_should_Return_JSON_empty_name_and_0__words_counter - 2018.02.06 at 00h 30m 08s.xml">
-      <configuration name="StatisticsController show should Return JSON empty name and 0: words_counter" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="String_Service_Spec_splits_string_and_removes_all_non_alphabetical_chars__words_counter - 2018.02.06 at 01h 20m 11s.xml">
+      <configuration name="String Service Spec splits string and removes all non alphabetical chars: words_counter" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="StatisticsController_show_should_Return_JSON_empty_name_and_0__words_counter - 2018.02.06 at 00h 30m 33s.xml">
-      <configuration name="StatisticsController show should Return JSON empty name and 0: words_counter" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Words_Service_Spec_counts_words_correctly_and_returns_hash_with_results__words_counter - 2018.02.06 at 01h 15m 03s.xml">
+      <configuration name="Words Service Spec counts words correctly and returns hash with results: words_counter" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="StatisticsController_show_should_Return_JSON_empty_name_and_0__words_counter - 2018.02.06 at 00h 30m 40s.xml">
-      <configuration name="StatisticsController show should Return JSON empty name and 0: words_counter" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Words_Service_Spec_counts_words_correctly_and_returns_hash_with_results__words_counter - 2018.02.06 at 01h 15m 48s.xml">
+      <configuration name="Words Service Spec counts words correctly and returns hash with results: words_counter" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="StatisticsController_show_should_Return_JSON_wihh_same_name_and_0__words_counter - 2018.02.06 at 00h 31m 52s.xml">
-      <configuration name="StatisticsController show should Return JSON wihh same name and 0: words_counter" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Words_Service_Spec_saves_words_to_the_database__words_counter - 2018.02.06 at 01h 11m 58s.xml">
+      <configuration name="Words Service Spec saves words to the database: words_counter" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55618000" />
+    <option name="totallyTimeSpent" value="57806000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1920" y="-120" width="1920" height="1177" extended-state="6" />
@@ -668,7 +682,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295562" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295562" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33144477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33144477" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -716,12 +730,22 @@
           <line>6</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/spec/services/words_service_spec.rb</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/spec/services/string_service_spec.rb</url>
+          <line>7</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="28" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="RSpecRunConfigurationType">
-        <watch expression="response.body" language="ruby" />
+        <watch expression="response" language="ruby" />
         <watch expression="expected.to_json" language="ruby" />
         <watch expression="response.body== expected.to_json " language="ruby" />
       </configuration>
@@ -733,6 +757,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>response</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>response.body== expected.to_json</expression-string>
         <language-id>ruby</language-id>
@@ -778,54 +807,9 @@
         <language-id>ruby</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>response.content</expression-string>
-        <language-id>ruby</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/boot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p648/gems/railties-4.0.8/lib/rails/application/configuration.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="54" column="47" lean-forward="false" selection-start-line="54" selection-start-column="47" selection-end-line="54" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p648/gems/activesupport-4.0.8/lib/active_support/dependencies.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="201" column="10" lean-forward="false" selection-start-line="201" selection-start-column="10" selection-end-line="201" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p648/gems/rails-4.0.8/guides/code/getting_started/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/counter_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -894,14 +878,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/counter_service.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1108,26 +1084,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/counter_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/statistics_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1164,14 +1124,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/services/statistics_service.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1180,18 +1132,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/spec/controllers/counter_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/counter_controller_spec.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/statistics_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/counter_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/counter_service.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="4" lean-forward="false" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/statistics_service.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/services/counter_service_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/words_service.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/services/words_service_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/services/string_service.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/services/string_service_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
