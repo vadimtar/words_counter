@@ -1,7 +1,14 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '2.3.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.8'
+gem 'rails', '4.1.14'
+
+gem 'pg', '0.15.1'
+
+gem 'nokogiri'
+gem 'rack', '~> 1.5.2'
+gem 'rspec-rails', :group => [:development, :test]
+
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -31,6 +38,11 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+group :test do
+  gem 'factory_girl_rails'
+end
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
